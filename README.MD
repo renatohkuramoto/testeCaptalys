@@ -59,9 +59,9 @@ On Fail - 404
 ```
 
 ### Retornar dados do repositório
-Parâmetro opcional from_local=true ou false (Retorna dados da base local)
-Parâmetro opcional save_data=true ou false (Salva os dados do usuário e repositórios)
-Parâmetro save_data=true, insere, atualiza e deleta as informções do repositório na base local conforme os dados do GitHub API.
+<p>Parâmetro opcional from_local=true ou false (Retorna dados da base local)</p>
+<p>Parâmetro opcional save_data=true ou false (Salva os dados do usuário e repositórios)</p>
+<p>Parâmetro save_data=true, insere, atualiza e deleta as informções do repositório na base local conforme os dados do GitHub API.</p>
 
 ```sh
 http://127.0.0.1:8000/repositories/{username}/{repository_name}
